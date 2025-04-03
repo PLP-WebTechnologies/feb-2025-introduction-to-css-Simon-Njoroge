@@ -1,0 +1,54 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling for header */
+header {
+    background-color: #4CAF50; /* Green background */
+    color: white;  /* White text */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid #2e8b57; /* Dark green border */
+}
+
+/* Styling for elements with the class 'about' */
+.about {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f4f4f4; /* Light grey background */
+    border-radius: 8px;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Styling for elements with the id 'gallery' */
+#gallery {
+    margin-top: 30px;
+    padding: 15px;
+    text-align: center;
+    border: 2px solid #ddd; /* Light gray border */
+    border-radius: 8px;
+}
+
+/* Styling the image inside the 'gallery' section */
+#gallery img {
+    width: 100%; /* Make image responsive */
+    max-width: 500px; /* Limit the maximum width */
+    height: auto; /* Maintain aspect ratio */
+    border: 5px solid #4CAF50; /* Green border around image */
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333; /* Dark background for footer */
+    color: white; /* White text */
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
